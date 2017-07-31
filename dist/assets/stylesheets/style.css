@@ -1,0 +1,115 @@
+.product-gallery *,
+.product-gallery *:before,
+.product-gallery *:after,
+.filters {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.85rem;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #605040; }
+
+.product-gallery,
+.filters {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.product-wrapper {
+  width: 25%;
+  padding: 0.5em;
+  position: relative;
+  margin: 0 auto; }
+
+.product {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 0.3rem;
+          border-radius: 0.3rem;
+  overflow: hidden; }
+
+.product a {
+  text-decoration: none; }
+
+.product-img {
+  position: relative;
+  background-image: url("http://bpc.h-cdn.co/assets/17/17/480x480/gallery-1493392884-kate-spade-pom-pom-sandals.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 100%; }
+
+.product-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.5rem 0.7rem; }
+
+.product-info {
+  padding: 1em;
+  background-color: #f5f5f5; }
+
+.product-title,
+.product-description,
+.product-tags {
+  margin: 0.5rem 0; }
+
+.product-tags {
+  color: #ccc;
+  font-size: 0.8em; }
+
+.product-tags > span, .filters button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #ccc;
+  padding: 0.2rem 0.4rem;
+  color: #f5f5f5;
+  -webkit-border-radius: 0.2rem;
+          border-radius: 0.2rem;
+  font-size: inherit; }
+
+.product-tags > span:hover {
+  background-color: #bbb;
+  color: white; }
+
+.filters {
+  padding: 0.5em; }
+
+.filters button {
+  border: none;
+  outline: none;
+  margin-right: 10px; }
+
+@media screen and (max-width: 960px) {
+  .product-wrapper {
+    width: 33.3333%; } }
+
+@media screen and (max-width: 768px) {
+  .product-wrapper {
+    width: 50%; } }
+
+@media screen and (max-width: 414px) {
+  .product-wrapper {
+    width: 100%; } }
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background-color: snow; }
+
+.top-banner {
+  padding: 0.5em;
+  text-align: center; }
+
+.top-banner h1 {
+  padding: 0 1em 0.2em;
+  display: inline-block;
+  color: #e5d8c5;
+  background-color: white;
+  font-family: 'Dosis', Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 3em; }
